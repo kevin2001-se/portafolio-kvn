@@ -7,7 +7,7 @@ export default function Proyectos({sectionRef}: {sectionRef: React.MutableRefObj
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-12 cursor-pointer mx-4">
         
-        <a href="https://676cdb32c6eae62e1fec7240--rococo-sunburst-838710.netlify.app/" target="_blank" className="block shadow-lg h-80 lg:h-72 xl:h-80 rounded-lg overflow-hidden group bg-[url('img/proyecto-todo.png')] bg-cover bg-center">
+        <a href="https://676cdb32c6eae62e1fec7240--rococo-sunburst-838710.netlify.app/" target="_blank" className={`block shadow-lg h-80 lg:h-72 xl:h-80 rounded-lg overflow-hidden group bg-[url('/img/proyecto-todo.png')] bg-cover bg-center`}>
           <div className="bg-[#176b87de] w-full h-full p-4 pt-10 relative hidden group-hover:block">
             <h1 className="text-white text-lg">TO DO List</h1>
             <p className="text-white text-[12px]">Aplicación básica para la gestión de tareas que permite a los usuarios registrar, visualizar, editar y eliminar tareas de manera sencilla.</p>
@@ -17,7 +17,7 @@ export default function Proyectos({sectionRef}: {sectionRef: React.MutableRefObj
           </div>
         </a>
         
-        <a href="https://quiet-tarsier-b5d1d7.netlify.app/" target="_blank" className="block shadow-lg h-80 lg:h-72 xl:h-80 rounded-lg overflow-hidden group bg-[url('img/proyecto-peliculas.png')] bg-cover bg-center">
+        <a href="https://quiet-tarsier-b5d1d7.netlify.app/" target="_blank" className={`block shadow-lg h-80 lg:h-72 xl:h-80 rounded-lg overflow-hidden group bg-[url('/img/proyecto-peliculas.png')] bg-cover bg-center`}>
 
           <div className="bg-[#176b87de] w-full h-full p-4 pt-10 relative hidden group-hover:block">
             <h1 className="text-white text-lg">Buscador de Peliculas</h1>
