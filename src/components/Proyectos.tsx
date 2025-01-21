@@ -27,6 +27,17 @@ export default function Proyectos({sectionRef}: {sectionRef: React.MutableRefObj
             </span>
           </div>
         </a>
+        
+        <a href="https://proyecto-the-simpsons-kvn.netlify.app/" target="_blank" className={`block shadow-lg h-80 lg:h-72 xl:h-80 rounded-lg overflow-hidden group bg-[url('/img/the-simpsons.png')] bg-cover bg-center`}>
+
+          <div className="bg-[#176b87de] w-full h-full p-4 pt-10 relative hidden group-hover:block">
+            <h1 className="text-white text-lg">The Simpsons</h1>
+            <p className="text-white text-[12px]">Aplicación que te permite explorar todos los personajes de Los Simpson. Además, ofrece la opción de iniciar sesión para personalizar tu experiencia y agregar tus personajes favoritos a una lista personalizada</p>
+            <span className="bg-white text-alternative p-1 text-xs absolute top-0 left-0">
+              React + Zustand + Axios + Tailwind CSS + Laravel
+            </span>
+          </div>
+        </a>
       </div>
       {/* <div className="mt-8 flex justify-center">
         <ButtomPrimary>
