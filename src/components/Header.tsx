@@ -26,7 +26,7 @@ export default function Header({sectionRef, onMenuSelect, activeMenu}: HeaderPro
         <div className="w-full absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center">
             <img className="m-auto" src={profile} alt="profile kevin" />
             <h1 className="mt-4 mb-1 text-2xl text-primary">KEVIN BLAS</h1>
-            <p className="text-secondary text-[15px] mb-[11px]">Hola, Soy FrontEnd Developer</p>
+            <p className="text-secondary text-[15px] mb-[11px]">Hola, Soy Full-Stack Developer</p>
             <ButtomPrimary funcClick={downloadFileCV}>
                 Descargar cv
             </ButtomPrimary>
