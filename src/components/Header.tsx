@@ -12,7 +12,7 @@ export default function Header({sectionRef, onMenuSelect, activeMenu}: HeaderPro
 
   const downloadFileCV = () => {
     const link = document.createElement('a');
-    link.href = 'doc/documento de prueba.pdf'; // URL del archivo
+    link.href = 'doc/CV-kevin blas huaman.pdf'; // URL del archivo
     link.download = 'cv-kevin-blas.pdf'; // Nombre del archivo descargado
     link.click();  // Simula el clic en el enlace
   };

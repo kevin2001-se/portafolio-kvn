@@ -38,59 +38,65 @@ export const experiencia:  ExperienciaType[] = [
     }
 ]
 
-export const habilidades: { name: string }[] = [
+export const habilidades: { name: string, description: string }[] = [
     {
-        name: 'html5'
+        name: 'html5',
+        description: "Html5"
     },
     {
-        name: 'css3'
+        name: 'css3',
+        description: "Css3"
     },
     {
-        name: 'javascript'
+        name: 'javascript',
+        description: "JavaScript"
     },
     {
-        name: 'jquery'
+        name: 'angular',
+        description: "Angular"
     },
     {
-        name: 'php'
+        name: 'laravel',
+        description: "Laravel"
     },
     {
-        name: 'angular'
+        name: 'dotnetcore',
+        description: ".Net Core"
     },
     {
-        name: 'dotnetcore'
+        name: 'typescript',
+        description: "TypeScript"
     },
     {
-        name: 'typescript'
+        name: 'react',
+        description: "React Js"
     },
     {
-        name: 'react'
+        name: 'next-js',
+        description: "Next Js"
     },
     {
-        name: 'nodejs'
+        name: 'bootstrap',
+        description: "Bootstrap"
     },
     {
-        name: 'bootstrap'
+        name: 'tailwindcss',
+        description: "Tailwindcss"
     },
     {
-        name: 'sqlserver'
+        name: 'sqlserver',
+        description: "SQL Server"
     },
     {
-        name: 'mysql'
+        name: 'mysql',
+        description: "MySQL"
     },
     {
-        name: 'mongoDB'
+        name: 'github',
+        description: "GutHub"
     },
     {
-        name: 'github'
-    },
-    {
-        name: 'tailwindcss'
-    },
-    {
-        name: 'azure'
-    },
-    {
-        name: 'java'
+        name: 'docker',
+        description: "Docker"
     }
 ]

@@ -1,6 +1,7 @@
 import { BiBriefcase } from "react-icons/bi";
 import { experiencia, habilidades } from "../assets/data";
 import { HiAcademicCap } from "react-icons/hi";
+import { Tooltip } from 'react-tooltip'
 
 export default function SobreMi({sectionRef}: {sectionRef: React.MutableRefObject<null>}) {
   return (
@@ -8,8 +9,8 @@ export default function SobreMi({sectionRef}: {sectionRef: React.MutableRefObjec
       {/* Sobre mi */}
       <div className="w-full bg-light p-5 py-10 md:p-14 lg:p-20 md:rounded-xl grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-14">
         <div>
-          <div className="w-full h-[433px] bg-secondary">
-
+          <div className="w-full h-[433px]">
+            <img src="img/programador.jpg" alt="" className="object-cover h-[433px] m-auto rounded-lg" />
           </div>
         </div>
         <div className="flex flex-col justify-center">
@@ -56,12 +57,13 @@ export default function SobreMi({sectionRef}: {sectionRef: React.MutableRefObjec
           {
             habilidades.map(skill => (
               <div className="w-full p-3 flex justify-center items-center" key={skill.name}>
-                <img src={`svg/skills/${skill.name}.svg`} alt={skill.name} />
+                <img data-tooltip-id="my-tooltip" data-tooltip-content={skill.description} src={`svg/skills/${skill.name}.svg`} alt={skill.name} />
               </div>
             ))
           }
         </div>
       </div>
+      <Tooltip id="my-tooltip" />
     </div>
   )
 }
